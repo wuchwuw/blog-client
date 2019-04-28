@@ -1,0 +1,26 @@
+[2019-04-09T10:31:15.142] [ERROR] file - { BadRequestError: Bad Request
+    at Object.throw (/Users/boffy/Documents/code/blog-server/node_modules/koa/lib/context.js:97:11)
+    at validator (/Users/boffy/Documents/code/blog-server/common/validator.js:31:12)
+    at exports.create (/Users/boffy/Documents/code/blog-server/controllers/article.js:13:5)
+    at dispatch (/Users/boffy/Documents/code/blog-server/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/boffy/Documents/code/blog-server/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/boffy/Documents/code/blog-server/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/boffy/Documents/code/blog-server/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/boffy/Documents/code/blog-server/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/boffy/Documents/code/blog-server/node_modules/koa-router/lib/router.js:351:31)
+    at dispatch (/Users/boffy/Documents/code/blog-server/node_modules/koa-compose/index.js:42:32)
+    at bodyParser (/Users/boffy/Documents/code/blog-server/node_modules/koa-bodyparser/index.js:86:11)
+    at process._tickCallback (internal/process/next_tick.js:68:7) message: 'Bad Request', data: { message: 'asd' } }
+[2019-04-09T10:31:51.484] [ERROR] file - { BadRequestError: Bad Request
+    at Object.throw (/Users/boffy/Documents/code/blog-server/node_modules/koa/lib/context.js:97:11)
+    at validator (/Users/boffy/Documents/code/blog-server/common/validator.js:31:12)
+    at exports.create (/Users/boffy/Documents/code/blog-server/controllers/article.js:13:5)
+    at dispatch (/Users/boffy/Documents/code/blog-server/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/boffy/Documents/code/blog-server/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/boffy/Documents/code/blog-server/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/boffy/Documents/code/blog-server/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/boffy/Documents/code/blog-server/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/boffy/Documents/code/blog-server/node_modules/koa-router/lib/router.js:351:31)
+    at dispatch (/Users/boffy/Documents/code/blog-server/node_modules/koa-compose/index.js:42:32)
+    at bodyParser (/Users/boffy/Documents/code/blog-server/node_modules/koa-bodyparser/index.js:86:11)
+    at process._tickCallback (internal/process/next_tick.js:68:7) message: 'Bad Request', data: { message: '请输入文章标题' } }
